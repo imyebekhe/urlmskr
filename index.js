@@ -51,5 +51,5 @@ if (params.get("r") && params.get("r").toLowerCase().endsWith(" reveal")) {
     </style>
   `;
 } else {
-  window.location.replace("https://axorax.github.io/urlmskr/create");
+  window.location.replace("https://imyebekhe.github.io/urlmskr/create");
 }
