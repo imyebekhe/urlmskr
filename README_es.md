@@ -7,11 +7,11 @@
 
 # ❓ Acerca de
 
-urlmskr permite enmascarar enlaces y enviar mensajes codificados cambiando un enlace por otro que no pueda leerse fácilmente pero que redirija al original. Se ejecuta completamente en el frontend, no requiere servidor backend y no almacena datos. Puedes alojarlo en cualquier sitio. Apoya el proyecto en [Patreon!](https://www.patreon.com/axorax) <3
+urlmskr permite enmascarar enlaces y enviar mensajes codificados cambiando un enlace por otro que no pueda leerse fácilmente pero que redirija al original. Se ejecuta completamente en el frontend, no requiere servidor backend y no almacena datos. Puedes alojarlo en cualquier sitio. Apoya el proyecto en [Patreon!](https://www.patreon.com/imyebekhe) <3
 
 # 🤔 ¿Por qué?
 
-Utilizar una herramienta como urlmskr permite enviar un enlace sin revelar el sitio de destino. Sin embargo, esto podría llevar a recibir enlaces a sitios no deseados. Para revelar el destino, basta con añadir `+reveal` al final de la URL. Por ejemplo: `https://axorax.github.io/urlmskr/hello69+reveal`.
+Utilizar una herramienta como urlmskr permite enviar un enlace sin revelar el sitio de destino. Sin embargo, esto podría llevar a recibir enlaces a sitios no deseados. Para revelar el destino, basta con añadir `+reveal` al final de la URL. Por ejemplo: `https://imyebekhe.github.io/urlmskr/hello69+reveal`.
 
 # 💻 Integración en su proyecto
 
@@ -24,9 +24,9 @@ urlmskr incluye librerías para varios lenguajes de programación en el director
     <title>Ejemplo</title>
   </head>
   <body>
-    <script src="https://axorax.github.io/urlmskr/lib.js"></script>
+    <script src="https://imyebekhe.github.io/urlmskr/lib.js"></script>
     <script>
-      document.write(urlmskr.mask("https://axorax.github.io")); // Máscara URL
+      document.write(urlmskr.mask("https://imyebekhe.github.io")); // Máscara URL
       document.write("<br>"); // Añadir línea vacía
       document.write(urlmskr.mask("Hello", "text")); // Texto de máscara
     </script>
@@ -36,4 +36,4 @@ urlmskr incluye librerías para varios lenguajes de programación en el director
 
 ---
 
-<p align="center"><a href="https://www.patreon.com/axorax">Apóyame en Patreon</a> — <a href="https://github.com/axorax/socials">Echa un vistazo a mis redes sociales</a></p>
+<p align="center"><a href="https://www.patreon.com/imyebekhe">Apóyame en Patreon</a> — <a href="https://github.com/imyebekhe/socials">Echa un vistazo a mis redes sociales</a></p>
