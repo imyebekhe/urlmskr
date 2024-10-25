@@ -12,9 +12,9 @@ module Urlmskr
   def self.mask(text, type)
     encoded_text = encode(text)
     if type == 'text'
-      "https://axorax.github.io/urlmskr/?t=#{encoded_text}"
+      "https://imyebekhe.github.io/urlmskr/?t=#{encoded_text}"
     else
-      "https://axorax.github.io/urlmskr/#{encoded_text}"
+      "https://imyebekhe.github.io/urlmskr/#{encoded_text}"
     end
   end
 end
